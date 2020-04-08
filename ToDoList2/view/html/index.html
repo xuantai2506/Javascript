@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="../../controller/createView.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="col col-mb-6 name-header">
+                    <h1>todos</h1>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="row">
+                <div class="col col-md-6 input-toggle">
+                    <div onclick="clickDacBiet()" class="label">
+                        <input type="hidden" onclick="clickDacBiet()">
+                    </div>
+                    <div class="input-content">
+                        <form action="">
+                            <input type="text" id="toggle-input" placeholder="What need to be done ?">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-6 list-toggle">
+                    <ul id = "content-list">
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-6 text-align list-choose">
+                    <div class="row">
+                        <div class="col col-md-3">
+                            1 item left
+                        </div>
+                        <div class="col col-md-6">
+                            <div class="row">
+                                <div class="col col-md-2 choose">
+                                    <a href="#all">All</a>
+                                </div>
+                                <div class="col col-md-3 choose">
+                                    <a href="#active">Active</a>
+                                </div>
+                                <div class="col col-md-2 choose">
+                                    <a href="#completed">Completed</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-3">
+                            <a href="#">Clear Complete</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input checkbox8" id="customCheck" name="example1">
+      <label class="custom-control-label" for="customCheck">Custom checkbox</label>
+    </div> -->
+</body>
+
+<!-- Javascript -->
+<script src="../js/index.js"></script>
+<script src="../../controller/create-view.js"></script>
+<!-- JQUERY -->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../bootstrap-4.4.1/dist/js/bootstrap.min.js">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+    href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://flatlogic.github.io/awesome-bootstrap-checkbox/demo/build.css" />
+<!-- CSS -->
+<link rel="stylesheet" href="../css/index.css">
+
+</html>
