@@ -93,3 +93,11 @@
     text-decoration: line-through;
 }
 /*  */
+/* phan trang */
+.content {
+    display: none;
+}
+.content-all {
+    display: block;
+}
+/* end phantrang */
